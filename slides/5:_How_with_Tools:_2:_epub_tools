@@ -1,0 +1,8 @@
+Name: How, with tools?
+Subhead: epub-tools
+
+A collection of open source tools for generating and managing EPUB documents, maintained by Threepress Consulting.
+
+* http://code.google.com/p/epub-tools/
+* docbook2epub: a python script for converting docbook XML to epub
+* EPUBGen set of tools written in Java. Includes: rtf2epub, word2epub, and fb2epub

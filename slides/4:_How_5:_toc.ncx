@@ -1,0 +1,27 @@
+Name: How do we build an EPUB?
+Subhead: Files: toc.ncx
+
+<notextile>
+<div class="code">
+<span class="Comment">&lt;?</span><span class="Type">xml</span><span class="Type"> </span><span class="Type">version</span>=<span class="Constant">'1.0'</span><span class="Type"> </span><span class="Type">encoding</span>=<span class="Constant">'utf-8'</span><span class="Comment">?&gt;</span><br />
+<span class="Identifier">&lt;!</span><span class="Statement">DOCTYPE</span> ncx <span class="Statement">PUBLIC</span> <span class="Constant">&quot;-//NISO//DTD ncx 2005-1//EN&quot;</span><br />
+&#160;&#160;&#160;&#160;<span class="Constant">&quot;<a href="http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">http://www.daisy.org/z3986/2005/ncx-2005-1.dtd</a>&quot;</span><span class="Identifier">&gt;</span><br />
+<span class="Statement">&lt;</span><span class="Statement">ncx</span><span class="Statement"> </span><span class="Type">xmlns</span>=<span class="Constant">&quot;<a href="http://www.daisy.org/z3986/2005/ncx/">http://www.daisy.org/z3986/2005/ncx/</a>&quot;</span><span class="Statement"> </span><span class="Type">version</span>=<span class="Constant">&quot;2005-1&quot;</span><span class="Statement">&gt;</span><br />
+&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">head</span><span class="Statement">&gt;</span><br />
+&#160;&#160;&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">meta</span><span class="Statement"> </span><span class="Type">name</span>=<span class="Constant">&quot;dtb:uid&quot;</span> 
+<span class="Type">content</span>=<span class="Constant">&quot;urn:uuid:867-5309&quot;</span><span class="Statement">/&gt;</span><br />
+&#160;&#160;<span class="Identifier">&lt;/head&gt;</span><br />
+&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">docTitle</span><span class="Statement">&gt;</span><br />
+&#160;&#160;&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">text</span><span class="Statement">&gt;</span>Hello World<span class="Identifier">&lt;/text&gt;</span><br />
+&#160;&#160;<span class="Identifier">&lt;/docTitle&gt;</span><br />
+&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">navMap</span><span class="Statement">&gt;</span><br />
+&#160;&#160;&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">navPoint</span><span class="Statement"> </span><span class="Type">id</span>=<span class="Constant">&quot;navpoint-1&quot;</span><span class="Statement"> </span><span class="Type">playOrder</span>=<span class="Constant">&quot;1&quot;</span><span class="Statement">&gt;</span><br />
+&#160;&#160;&#160;&#160;&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">navLabel</span><span class="Statement">&gt;</span><br />
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">text</span><span class="Statement">&gt;</span>Sample Content<span class="Identifier">&lt;/text&gt;</span><br />
+&#160;&#160;&#160;&#160;&#160;&#160;<span class="Identifier">&lt;/navLabel&gt;</span><br />
+&#160;&#160;&#160;&#160;&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">content</span><span class="Statement"> </span><span class="Type">src</span>=<span class="Constant">&quot;sample.html&quot;</span><span class="Statement">/&gt;</span><br />
+&#160;&#160;&#160;&#160;<span class="Identifier">&lt;/navPoint&gt;</span><br />
+&#160;&#160;<span class="Identifier">&lt;/navMap&gt;</span><br />
+<span class="Identifier">&lt;/ncx&gt;</span><br />
+</div>
+</notextile>

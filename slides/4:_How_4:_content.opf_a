@@ -1,0 +1,16 @@
+Name: How do we build an EPUB?
+Subhead: Files: content.opf - metadata
+
+<notextile>
+<div class="code">
+<span class="Statement">&lt;</span><span class="Statement">metadata</span><span class="Statement">&gt;</span><br />
+&#160;&#160;<span class="Statement">&lt;</span><span class="Special">dc</span><span class="Comment">:</span><span class="Statement">title</span><span class="Statement">&gt;</span>Hello World<span class="Identifier">&lt;/</span><span class="Special">dc</span><span class="Comment">:</span><span class="Identifier">title&gt;</span><br />
+&#160;&#160;<span class="Statement">&lt;</span><span class="Special">dc</span><span class="Comment">:</span><span class="Statement">creator</span><span class="Statement">&gt;</span>My Name<span class="Identifier">&lt;/</span><span class="Special">dc</span><span class="Comment">:</span><span class="Identifier">creator&gt;</span><br />
+&#160;&#160;<span class="Statement">&lt;</span><span class="Special">dc</span><span class="Comment">:</span><span class="Statement">identifier</span> <span class="Type">id</span>=<span class="Constant">&quot;bookid&quot;</span><span class="Statement">&gt;</span>urn:uuid:867-5309<span class="Identifier">&lt;/</span><span class="Special">dc</span><span class="Comment">:</span><span class="Identifier">identifier&gt;</span><br />
+&#160;&#160;<span class="Statement">&lt;</span><span class="Special">dc</span><span class="Comment">:</span><span class="Statement">language</span><span class="Statement">&gt;</span>en-US<span class="Identifier">&lt;/</span><span class="Special">dc</span><span class="Comment">:</span><span class="Identifier">language&gt;</span><br />
+<span class="Identifier">&lt;/metadata&gt;</span><br />
+</div>
+</notextile>
+
+
+

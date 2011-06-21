@@ -1,0 +1,17 @@
+Name: Advanced How
+Subhead: Syntax Highlighting
+
+* no JavaScript in EPUB 2, so use an HTML generator
+* most IDEs and text editors have some HTML export
+
+<notextile>
+<pre>
+vim <span class="Special">-e</span> +<span class="Statement">'</span><span class="Constant">color tolerable</span><span class="Statement">'</span> <span class="Statement">\</span>
+     +<span class="Statement">'</span><span class="Constant">let html_use_css=1</span><span class="Statement">'</span> <span class="Statement">\</span>
+     +<span class="Statement">'</span><span class="Constant">let html_number_lines=0</span><span class="Statement">'</span> <span class="Statement">\</span>
+     +<span class="Statement">'</span><span class="Constant">let use_xhtml=1</span><span class="Statement">'</span> <span class="Statement">\</span>
+     +:TOhtml <span class="Statement">\</span>
+     +<span class="Statement">'</span><span class="Constant">wq</span><span class="Statement">'</span> <span class="Statement">\</span>
+     +<span class="Statement">'</span><span class="Constant">qa</span><span class="Statement">'</span> <span class="PreProc">$1</span>
+</pre>
+</notextile>

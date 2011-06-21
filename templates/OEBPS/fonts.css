@@ -1,0 +1,105 @@
+/* A Few Fonts
+ * -----------
+ *
+ * There are many ways to embed fonts for different browsers.
+ * For the sake of simplicity, I'm including the most correct way. As such,
+ * these, fonts might not work for all browsers, but they should fall back
+ * properly.
+ *
+ * See: http://www.metaltoad.com/blog/how-use-font-face-avoid-faux-italic-and-bold-browser-styles
+ */
+
+
+
+/* TeX Gyre Pagella */
+
+@font-face {
+  font-family: 'TeX Gyre Pagella';
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/texgyrepagella-regular.otf");
+}
+
+@font-face {
+  font-family: 'TeX Gyre Pagella';
+  font-style: italic;
+  font-weight: normal;
+  src: url("fonts/texgyrepagella-italic.otf");
+}
+
+@font-face {
+  font-family: 'TeX Gyre Pagella';
+  font-style: normal;
+  font-weight: bold;
+  src: url("fonts/texgyrepagella-bold.otf");
+}
+
+@font-face {
+  font-family: 'TeX Gyre Pagella';
+  font-style: italic;
+  font-weight: bold;
+  src: url("fonts/texgyrepagella-bolditalic.otf");
+}
+
+
+/* TeX Gyre Cursor */
+
+@font-face {
+  font-family: 'TeX Gyre Cursor';
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/texgyrecursor-regular.otf");
+}
+
+@font-face {
+  font-family: 'TeX Gyre Cursor';
+  font-style: italic;
+  font-weight: normal;
+  src: url("fonts/texgyrecursor-italic.otf");
+}
+
+@font-face {
+  font-family: 'TeX Gyre Cursor';
+  font-style: normal;
+  font-weight: bold;
+  src: url("fonts/texgyrecursor-bold.otf");
+}
+
+@font-face {
+  font-family: 'TeX Gyre Cursor';
+  font-style: italic;
+  font-weight: bold;
+  src: url("fonts/texgyrecursor-bolditalic.otf");
+}
+
+
+/* TeX Gyre Termes */
+
+@font-face {
+  font-family: 'TeX Gyre Termes';
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/texgyretermes-regular.otf");
+}
+
+@font-face {
+  font-family: 'TeX Gyre Termes';
+  font-style: italic;
+  font-weight: normal;
+  src: url("fonts/texgyretermes-italic.otf");
+}
+
+@font-face {
+  font-family: 'TeX Gyre Termes';
+  font-style: normal;
+  font-weight: bold;
+  src: url("fonts/texgyretermes-bold.otf");
+}
+
+@font-face {
+  font-family: 'TeX Gyre Termes';
+  font-style: italic;
+  font-weight: bold;
+  src: url("fonts/texgyretermes-bolditalic.otf");
+}
+

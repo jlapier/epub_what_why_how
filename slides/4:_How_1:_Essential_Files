@@ -1,0 +1,13 @@
+Name: How do we build an EPUB?
+Subhead: Essential Files
+Notes: META-INF is expected; OEBPS is standard but can be named something else
+
+<pre>
+mimetype
+META-INF/
+   container.xml
+OEBPS/
+  content.opf
+  sample.html
+  toc.ncx
+</pre>

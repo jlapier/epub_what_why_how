@@ -1,0 +1,11 @@
+Name: Advanced How
+Subhead: Future and EPUB3
+Notes: Fonts mostly work in 2, but in 3 the e-reader is required to support them.
+
+The draft spec of EPUB3 includes:
+
+* HTML5 features
+** more useful elements eliminates some XML
+** audio/video tags
+* JavaScript
+* OpenType and WOFF font support required

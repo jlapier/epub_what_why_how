@@ -1,0 +1,17 @@
+Name: How, with tools?
+Subhead: epubcheck
+
+A Java tool for validating EPUB files. 
+
+* http://code.google.com/p/epubcheck/
+* OCF container structure, OPF and OPS mark-up, and internal reference consistency are checked
+* run on command-line
+* can run as a Java server-side app or used as a Java library
+
+Trust me: run epubcheck _before_ you start testing in various e-readers.
+
+<pre><code>~/epubfiles$ java -jar /opt/epubcheck/epubcheck-1.2.jar hw.epub 
+Epubcheck Version 1.2
+
+No errors or warnings detected
+</code></pre>

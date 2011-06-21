@@ -1,0 +1,16 @@
+Name: How do we build an EPUB?
+Subhead: Files: container.xml
+
+<notextile>
+<div class="code">
+<span class="Comment">&lt;?</span><span class="Type">xml</span><span class="Type">&#160;</span><span class="Type">version</span>=<span class="Constant">&quot;1.0&quot;</span><span class="Comment">?&gt;</span><br />
+<span class="Statement">&lt;</span><span class="Statement">container</span><span class="Statement">&#160;</span><span class="Type">version</span>=<span class="Constant">&quot;1.0&quot;</span><span class="Statement">&#160;</span><br />
+<span class="Statement">&#160;&#160;</span><span class="Type">xmlns</span>=<span class="Constant">&quot;urn:oasis:names:tc:opendocument:xmlns:container&quot;</span><span class="Statement">&gt;</span><br />
+&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">rootfiles</span><span class="Statement">&gt;</span><br />
+&#160;&#160;&#160;&#160;<span class="Comment">&lt;!</span><span class="Comment">-- this is the only part that can change: --</span><span class="Comment">&gt;</span><br />
+&#160;&#160;&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">rootfile</span><span class="Statement">&#160;</span><span class="Type">full-path</span>=<span class="Constant">&quot;OEBPS/content.opf&quot;</span><br />
+<span class="Statement">&#160;&#160;&#160;&#160; </span><span class="Type">media-type</span>=<span class="Constant">&quot;application/oebps-package+xml&quot;</span><span class="Statement">&#160;/&gt;</span><br />
+&#160;&#160;<span class="Identifier">&lt;/rootfiles&gt;</span><br />
+<span class="Identifier">&lt;/container&gt;</span><br />
+</div>
+</notextile>

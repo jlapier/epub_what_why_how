@@ -1,0 +1,9 @@
+Name: How, with tools?
+Subhead: epubbery
+
+A ruby gem written by Jason LaPier (that's me). 
+
+* https://github.com/jlapier/epubbery (or install with rubygems)
+* designed to work like a web framework - you start a new project and get a template structure that is used to generate the EPUB
+* no ruby coding required: templates are written in liquid, text is textile markup
+* used to build this presentation

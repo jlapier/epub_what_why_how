@@ -1,0 +1,6 @@
+Name: Why EPUB?
+Subhead: Versus HTML
+Notes: We all hate DRM in these parts, but the key is that the spec allows for it. Without this component, widespread adoption of the format by the publishing industry would never get off the ground.
+
+* Package into one zip file, including assets
+* Supports DRM

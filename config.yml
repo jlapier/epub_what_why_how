@@ -1,0 +1,8 @@
+--- 
+:book_title: "EPUB: What, Why, and How"
+:author: Jason LaPier
+:epubcheck: /opt/epubcheck/epubcheck-1.2.jar
+:file_name: epub_wwh.epub
+:chapter_glob: slides/*
+:temp_epub_folder: epub
+:default_template: chapter

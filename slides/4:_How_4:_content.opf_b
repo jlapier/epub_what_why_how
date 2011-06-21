@@ -1,0 +1,14 @@
+Name: How do we build an EPUB?
+Subhead: Files: content.opf - manifest, spine
+
+<notextile>
+<div class="code">
+<span class="Statement">&lt;</span><span class="Statement">manifest</span><span class="Statement">&gt;</span><br />
+&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">item</span><span class="Statement"> </span><span class="Type">id</span>=<span class="Constant">&quot;ncx&quot;</span><span class="Statement"> </span><span class="Type">href</span>=<span class="Constant">&quot;toc.ncx&quot;</span><span class="Statement"> </span><span class="Type">media-type</span>=<span class="Constant">&quot;application/x-dtbncx+xml&quot;</span><span class="Statement">/&gt;</span><br />
+&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">item</span><span class="Statement"> </span><span class="Type">id</span>=<span class="Constant">&quot;content&quot;</span><span class="Statement"> </span><span class="Type">href</span>=<span class="Constant">&quot;sample.html&quot;</span><span class="Statement"> </span><span class="Type">media-type</span>=<span class="Constant">&quot;application/xhtml+xml&quot;</span><span class="Statement">/&gt;</span><br />
+<span class="Identifier">&lt;/manifest&gt;</span><br />
+<span class="Statement">&lt;</span><span class="Statement">spine</span><span class="Statement"> </span><span class="Type">toc</span>=<span class="Constant">&quot;ncx&quot;</span><span class="Statement">&gt;</span><br />
+&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">itemref</span><span class="Statement"> </span><span class="Type">idref</span>=<span class="Constant">&quot;content&quot;</span><span class="Statement">/&gt;</span><br />
+<span class="Identifier">&lt;/spine&gt;</span><br />
+</div>
+</notextile>

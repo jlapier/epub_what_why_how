@@ -1,0 +1,18 @@
+Name: How, with tools?
+Subhead: Calibre
+Notes: When converting: best results are from HTML to EPUB. Converting from word processor docs may result in messy CSS.
+
+GUI-driven, cross platform e-book manager
+
+* http://calibre-ebook.com/
+* drivers for tons of devices 
+* lots of converters
+* content server
+* nice e-reader
+* command-line tools for batch conversions
+
+<pre>
+<code>
+ebook-convert input_file output_file [options]
+</code>
+</pre>

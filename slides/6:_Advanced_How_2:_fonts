@@ -1,0 +1,33 @@
+Name: Advanced How
+Subhead: Fonts
+Notes: By reusing the same font name in @font-faces, renderer should properly use italics (/bold/bold-italic, not shown here) from their extra files instead of fake-rendering them. From the spec: "Content creators must not assume that any particular font format is supported. Fonts could be included in multiple formats by using a list of files for the src descriptor; the first supported format should be used. At least one file in OpenType format should always be included in the list. It is advisable for a Reading System to support the OpenType font format, but this is not a conformance requirement; a reading system may support no embedded font formats at all."
+
+Font support varies, depending on the rendering engine.
+
+* go with OTF
+* always use a generic fallback - different fonts are built-in on devices
+* use fonts with open distribution rights
+* include font file in manifest with proper media type (application/vnd.ms-opentype for OpenType)
+* use proper @font-face declaration
+
+<notextile>
+<pre>
+<span class="Special">@font-face</span> <span class="Identifier">{</span>
+  <span class="Type">font-family</span>: <span class="Constant">'TeX Gyre Termes'</span>;
+  <span class="Type">font-style</span>: <span class="Type">normal</span>;
+  <span class="Type">font-weight</span>: <span class="Type">normal</span>;
+  <span class="Type">src</span>: <span class="Identifier">url(</span><span class="Constant">&quot;fonts/texgyretermes-regular.otf&quot;</span><span class="Identifier">)</span>;
+<span class="Identifier">}</span>
+
+<span class="Special">@font-face</span> <span class="Identifier">{</span>
+  <span class="Type">font-family</span>: <span class="Constant">'TeX Gyre Termes'</span>;
+  <span class="Type">font-style</span>: <span class="Type">italic</span>;
+  <span class="Type">font-weight</span>: <span class="Type">normal</span>;
+  <span class="Type">src</span>: <span class="Identifier">url(</span><span class="Constant">&quot;fonts/texgyretermes-italic.otf&quot;</span><span class="Identifier">)</span>;
+<span class="Identifier">}</span>
+
+<span class="Statement">body</span> <span class="Identifier">{</span>
+  <span class="Type">font-family</span>: <span class="Constant">'TeX Gyre Termes'</span>, <span class="Type">serif</span>;
+<span class="Identifier">}</span>
+</pre>
+</notextile>

@@ -1,0 +1,21 @@
+Name: How do we build an EPUB?
+Subhead: Files: content.opf
+
+<notextile>
+<div class="code">
+<span class="Comment">&lt;?</span><span class="Type">xml</span><span class="Type"> </span><span class="Type">version</span>=<span class="Constant">'1.0'</span><span class="Type"> </span><span class="Type">encoding</span>=<span class="Constant">'utf-8'</span><span class="Comment">?&gt;</span><br />
+<span class="Statement">&lt;</span><span class="Statement">package</span><span class="Statement"> </span><span class="Type">xmlns</span>=<span class="Constant">&quot;<a href="http://www.idpf.org/2007/opf">http://www.idpf.org/2007/opf</a>&quot;</span><br />
+<span class="Statement">&#160;&#160;&#160;&#160;</span><span class="Type">xmlns</span><span class="Comment">:</span><span class="Type">dc</span>=<span class="Constant">&quot;<a href="http://purl.org/dc/elements/1.1/">http://purl.org/dc/elements/1.1/</a>&quot;</span><br />
+<span class="Statement">&#160;&#160;&#160;&#160;</span><span class="Type">unique-identifier</span>=<span class="Constant">&quot;bookid&quot;</span><span class="Statement"> </span><span class="Type">version</span>=<span class="Constant">&quot;2.0&quot;</span><span class="Statement">&gt;</span><br />
+&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">metadata</span><span class="Statement">&gt;</span><br />
+&#160;&#160;&#160;&#160;...<br />
+&#160;&#160;<span class="Identifier">&lt;/metadata&gt;</span><br />
+&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">manifest</span><span class="Statement">&gt;</span><br />
+&#160;&#160;&#160;&#160;...<br />
+&#160;&#160;<span class="Identifier">&lt;/manifest&gt;</span><br />
+&#160;&#160;<span class="Statement">&lt;</span><span class="Statement">spine</span><span class="Statement"> </span><span class="Type">toc</span>=<span class="Constant">&quot;ncx&quot;</span><span class="Statement">&gt;</span><br />
+&#160;&#160;&#160;&#160;...<br />
+&#160;&#160;<span class="Identifier">&lt;/spine&gt;</span><br />
+<span class="Identifier">&lt;/package&gt;</span><br />
+</div>
+</notextile>

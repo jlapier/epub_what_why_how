@@ -1,0 +1,25 @@
+Name: How do we build an EPUB?
+Subhead: Zipping it up
+Notes: zip flags are as follows: # is level of compression; X is no extra file attributes (the extras throw off the file name lengths); r is recursive; D is no directory entries (no reason other than to minimize the archive)
+
+* mimetype needs to be first and uncompressed
+* add the rest
+
+<pre><code>~/epubfiles$ zip -0X hw.epub mimetype
+  adding: mimetype (stored 0%)
+~/epubfiles$ zip -Xr9D hw.epub META-INF OEBPS
+  adding: META-INF/container.xml (deflated 33%)
+  adding: OEBPS/sample.html (deflated 32%)
+  adding: OEBPS/toc.ncx (deflated 43%)
+  adding: OEBPS/content.opf (deflated 48%)
+</code></pre>
+
+You can also get away with one statement due to the fact that zip won't naturally compress a file like mimetype anyway. Just make sure to list the mimetype file first.
+
+<pre><code>~/epubfiles$ zip -XrD hw2.epub mimetype META-INF OEBPS
+  adding: mimetype (stored 0%)
+  adding: META-INF/container.xml (deflated 33%)
+  adding: OEBPS/sample.html (deflated 28%)
+  adding: OEBPS/toc.ncx (deflated 43%)
+  adding: OEBPS/content.opf (deflated 48%)
+</code></pre>
