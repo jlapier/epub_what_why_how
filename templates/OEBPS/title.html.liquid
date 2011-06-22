@@ -1,14 +1,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>{{ title }}</title>
+    <title>{{ book.title }}</title>
     <link rel="stylesheet" href="stylesheet.css" type="text/css" media="all" />
     <link rel="stylesheet" href="fonts.css" type="text/css" media="all" />
     <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+    <style type="text/css">
+      body, p { text-align:center; }
+    </style>
   </head>
-  <body style="text-align:center;">
-    <h1>EPUB: What, Why, and How</h1>
+  <body>
+    <h1>{{ book.title }}</h1>
     <h2><em>the open e-book standard</em></h2>
-    <p><img src="images/osb.jpg" alt="Open Source Bridge Logo"/></p>
+    <p><img src="images/osb.jpg" alt="Open Source Bridge Logo" style="margin: 50px;"/></p>
     <p>Open Source Bridge - the conference for Open Source Citizens.</p>
     <p>More information on this session: http://opensourcebridge.org/sessions/616</p>
   </body>
