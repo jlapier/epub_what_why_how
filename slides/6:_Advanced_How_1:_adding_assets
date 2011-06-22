@@ -13,5 +13,5 @@ notextile. <div class="code"><span class="Statement">&lt;</span><span class="Sta
 &#160;&#160;<span class="Statement">&lt;</span><span class="Statement">item</span><span class="Statement"> </span><span class="Type">id</span>=<span class="Constant">&quot;my_styles&quot;</span><span class="Statement"> </span><span class="Type">href</span>=<span class="Constant">&quot;stylesheet.css&quot;</span><span class="Statement"> </span>
     <span class="Type">media-type</span>=<span class="Constant">&quot;text/css&quot;</span><span class="Statement">/&gt;</span><br />
 &#160;&#160;<span class="Statement">&lt;</span><span class="Statement">item</span><span class="Statement"> </span><span class="Type">id</span>=<span class="Constant">&quot;font_tgt&quot;</span><span class="Statement"> </span><span class="Type">href</span>=<span class="Constant">&quot;fonts/tgt-regular.otf&quot;</span><span class="Statement"> </span>
-    <span class="Type">media-type</span>=<span class="Constant">&quot;application/x-font-opentype&quot;</span><span class="Statement">/&gt;</span><br />
+    <span class="Type">media-type</span>=<span class="Constant">&quot;application/vnd.ms-opentype&quot;</span><span class="Statement">/&gt;</span><br />
 <span class="Identifier">&lt;/manifest&gt;</span></div>
